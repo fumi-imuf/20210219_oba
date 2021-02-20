@@ -20,12 +20,12 @@
 </template>
 
 <style scoped>
-.header-logo {
-  font-size: 20px;
-  font-weight: bold;
-  margin-left: 35px;
-  color: #fff;
-  line-height: 70px;
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .footer-bar {
@@ -41,6 +41,25 @@
 .top-footer small {
   text-align: center;
   color: #fff;
+}
+
+.header-nav li {
+  display: inline-block;
+  margin-right: 35px;
+  font-size: 16px;
+}
+
+.header-nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header-logo {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 35px;
+  color: #fff;
+  line-height: 70px;
 }
 @media screen and (max-width: 768px) {
 .header-nav {
